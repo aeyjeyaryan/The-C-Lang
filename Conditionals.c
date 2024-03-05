@@ -101,70 +101,90 @@
 
 //nested switch
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main() {
-    int choice1, choice2;
+// int main() {
+//     int choice1, choice2;
 
-    printf("Choose option 1 (1-3): ");
-    scanf("%d", &choice1);
+//     printf("Choose option 1 (1-3): ");
+//     scanf("%d", &choice1);
 
-    printf("Choose option 2 (1-3): ");
-    scanf("%d", &choice2);
+//     printf("Choose option 2 (1-3): ");
+//     scanf("%d", &choice2);
 
-    switch (choice1) {
-        case 1:
-            switch (choice2) {
-                case 1:
-                    printf("You chose 1 - 1\n");
-                    break;
-                case 2:
-                    printf("You chose 1 - 2\n");
-                    break;
-                case 3:
-                    printf("You chose 1 - 3\n");
-                    break;
-                default:
-                    printf("Invalid choice for option 2\n");
-                    break;
-            }
-            break;
-        case 2:
-            switch (choice2) {
-                case 1:
-                    printf("You chose 2 - 1\n");
-                    break;
-                case 2:
-                    printf("You chose 2 - 2\n");
-                    break;
-                case 3:
-                    printf("You chose 2 - 3\n");
-                    break;
-                default:
-                    printf("Invalid choice for option 2\n");
-                    break;
-            }
-            break;
-        case 3:
-            switch (choice2) {
-                case 1:
-                    printf("You chose 3 - 1\n");
-                    break;
-                case 2:
-                    printf("You chose 3 - 2\n");
-                    break;
-                case 3:
-                    printf("You chose 3 - 3\n");
-                    break;
-                default:
-                    printf("Invalid choice for option 2\n");
-                    break;
-            }
-            break;
-        default:
-            printf("Invalid choice for option 1\n");
-            break;
-    }
+//     switch (choice1) {
+//         case 1:
+//             switch (choice2) {
+//                 case 1:
+//                     printf("You chose 1 - 1\n");
+//                     break;
+//                 case 2:
+//                     printf("You chose 1 - 2\n");
+//                     break;
+//                 case 3:
+//                     printf("You chose 1 - 3\n");
+//                     break;
+//                 default:
+//                     printf("Invalid choice for option 2\n");
+//                     break;
+//             }
+//             break;
+//         case 2:
+//             switch (choice2) {
+//                 case 1:
+//                     printf("You chose 2 - 1\n");
+//                     break;
+//                 case 2:
+//                     printf("You chose 2 - 2\n");
+//                     break;
+//                 case 3:
+//                     printf("You chose 2 - 3\n");
+//                     break;
+//                 default:
+//                     printf("Invalid choice for option 2\n");
+//                     break;
+//             }
+//             break;
+//         case 3:
+//             switch (choice2) {
+//                 case 1:
+//                     printf("You chose 3 - 1\n");
+//                     break;
+//                 case 2:
+//                     printf("You chose 3 - 2\n");
+//                     break;
+//                 case 3:
+//                     printf("You chose 3 - 3\n");
+//                     break;
+//                 default:
+//                     printf("Invalid choice for option 2\n");
+//                     break;
+//             }
+//             break;
+//         default:
+//             printf("Invalid choice for option 1\n");
+//             break;
+//     }
 
-    return 0;
-}
+//     return 0;
+// }
+// another mini project 
+# A program to check the grade of a student based on their marks
+
+marks = int(input("Enter your marks: "))
+
+if marks >= 90:
+    grade = "A+"
+elif marks >= 80:
+    grade = "A"
+elif marks >= 70:
+    grade = "B"
+elif marks >= 60:
+    grade = "C"
+elif marks >= 50:
+    grade = "D"
+else:
+    grade = "F"
+
+print(f"Your grade is {grade}")
+
