@@ -1,6 +1,6 @@
 //Basic example of if else in C
 // #include<stdio.h>
-// void main()
+// int main()
 // {
 // int age;
 // printf("enter your age: ");
