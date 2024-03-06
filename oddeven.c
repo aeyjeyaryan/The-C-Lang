@@ -18,3 +18,13 @@ else
 }
 
 }
+// USING TERNARY OPERATOR
+#include <stdio.h>
+
+int main() {
+    int n;
+    printf("Enter the number: ");
+    scanf("%d", &n);
+    (n == 0) ? printf("Invalid") : (n % 2 == 0) ? printf("Even") : printf("Odd");
+    return 0;
+}
