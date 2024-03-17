@@ -36,3 +36,23 @@ int main() {
 int add(int a, int b) {
     return a + b;
 }
+// multiplication functions
+#include <stdio.h>
+
+int multiply(int a, int b);
+
+int main() {
+    int num1 = 5, num2 = 10;
+    
+    // Function call
+    int product = multiply(num1, num2);
+    
+    printf("The product of %d and %d is %d\n", num1, num2, product);
+
+    return 0;
+}
+
+// Function definition
+int multiply(int a, int b) {
+    return a * b;
+}
